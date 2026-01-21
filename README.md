@@ -161,18 +161,6 @@ recruiter-ai/
 ├── 📄 README.md                         # This file
 ├── 🐍 run_pipeline.py                   # Pipeline orchestration
 │
-├── data/
-│   ├── bronze/                          # Raw data layer
-│   ├── silver/                          # Cleaned data layer
-│   └── gold/                            # Analytics layer (CSV exports)
-│       ├── dim_time.csv
-│       ├── dim_company.csv
-│       ├── dim_location.csv             # With Morocco regions
-│       ├── dim_skills.csv
-│       ├── fact_job_offers.csv
-│       ├── fact_job_skills.csv
-│       └── agg_*.csv
-│
 ├── dbt/
 │   ├── dbt_project.yml                  # DBT configuration
 │   ├── profiles.yml                     # Database connectors
