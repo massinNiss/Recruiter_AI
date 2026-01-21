@@ -1,0 +1,96 @@
+{
+  "name": "RecruiterAI Theme",
+  "description": "Data & AI Job Analytics Platform - Morocco Focus",
+  "dataColors": [
+    "#6366F1",
+    "#8B5CF6",
+    "#10B981",
+    "#C1272D",
+    "#006233",
+    "#F59E0B",
+    "#EC4899",
+    "#14B8A6",
+    "#F97316",
+    "#06B6D4",
+    "#84CC16",
+    "#A855F7"
+  ],
+  "background": "#0F172A",
+  "foreground": "#F8FAFC",
+  "tableAccent": "#6366F1",
+  "maximum": "#10B981",
+  "center": "#6366F1",
+  "minimum": "#C1272D",
+  "neutral": "#64748B",
+  "good": "#10B981",
+  "bad": "#EF4444",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "wordWrap": [true],
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#1E293B"
+              }
+            }
+          }
+        ],
+        "foreground": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F8FAFC"
+              }
+            }
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": {
+                "color": "#334155"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0F172A"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#94A3B8"
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "color": "#F8FAFC"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F8FAFC"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#6366F1"
+    },
+    "largeTitle": {
+      "fontFace": "Segoe UI Light",
+      "color": "#6366F1"
+    }
+  }
+}

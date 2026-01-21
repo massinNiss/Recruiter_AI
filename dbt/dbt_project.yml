@@ -1,0 +1,40 @@
+
+# dbt_project.yml
+# RecruiterAI - Data & AI Job Analytics Platform
+name: 'recruiter_ai'
+version: '1.0.0'
+config-version: 2
+
+profile: 'recruiter_ai'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+snapshot-paths: ["snapshots"]
+
+target-path: "target"
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  recruiter_ai:
+    bronze:
+      +materialized: view
+    
+    silver:
+      +materialized: table
+    
+    gold:
+      +materialized: table
+
+seeds:
+  quote_columns: true
+
+vars:
+  data_path: "../data"
+  bronze_path: "../data/bronze"
+  silver_path: "../data/silver"
+  gold_path: "../data/gold"

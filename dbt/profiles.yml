@@ -1,0 +1,18 @@
+
+# profiles.yml - Database Configuration for DBT
+# RecruiterAI - Data & AI Job Analytics Platform
+
+recruiter_ai:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: 'recruiter_ai.db'
+      threads: 4
+      timeout_seconds: 300
+
+    prod:
+      type: duckdb
+      path: 'recruiter_ai_prod.db'
+      threads: 4
+      timeout_seconds: 600
